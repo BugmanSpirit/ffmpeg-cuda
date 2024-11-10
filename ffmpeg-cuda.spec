@@ -64,6 +64,7 @@ BuildRequires:  Vulkan-Loader-dev Vulkan-Loader
 BuildRequires:  Vulkan-Headers-dev Vulkan-Tools Vulkan-Headers
 BuildRequires:  glslang-dev glslang
 BuildRequires:  SPIRV-Tools-dev SPIRV-Cross-dev
+BuildRequires:  shaderc-dev
 BuildRequires:  SVT-AV1-dev
 BuildRequires:  libvdpau-dev
 BuildRequires:  libplacebo-dev libplacebo
