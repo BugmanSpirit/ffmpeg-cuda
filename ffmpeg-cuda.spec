@@ -203,7 +203,7 @@ export CXXFLAGS="$CXXFLAGS -Ofast -fno-lto -falign-functions=32 -fno-semantic-in
     --enable-libzimg \
     --enable-libplacebo \
     --enable-vulkan \
-    --enable-libshadrec
+    --enable-libshaderc
 
 make  %{?_smp_mflags}
 
