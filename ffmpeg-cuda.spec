@@ -67,7 +67,6 @@ BuildRequires:  SPIRV-Tools-dev SPIRV-Cross-dev
 BuildRequires:  shaderc-dev
 BuildRequires:  SVT-AV1-dev
 BuildRequires:  libvdpau-dev
-BuildRequires:  libplacebo-dev libplacebo
 BuildRequires:  zimg-dev
 BuildRequires:  xvidcore-dev
 BuildRequires:  vid.stab-dev
@@ -202,7 +201,6 @@ export CXXFLAGS="$CXXFLAGS -Ofast -fno-lto -falign-functions=32 -fno-semantic-in
     --enable-libvidstab \
     --enable-libxcb \
     --enable-libzimg \
-    --enable-libplacebo \
     --enable-vulkan \
     --enable-libshaderc
 
